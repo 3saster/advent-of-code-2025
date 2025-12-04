@@ -19,7 +19,7 @@ def Part2(data):
 
         password += (dial + abs(r))//100
         dial = (dial+abs(r)) % 100
-        
+
         # Unflip things around
         if r < 0:
             dial = (100 - dial)%100
